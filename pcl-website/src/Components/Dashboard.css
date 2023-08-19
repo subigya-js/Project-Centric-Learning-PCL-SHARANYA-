@@ -1,0 +1,11 @@
+.main-dashboard {
+    /* background-color: darkgreen; */
+    width: 80vw;
+    /* display: grid;
+    place-items: center; */
+}
+
+.dashboard-photo {
+    height: 80vh;
+    padding: 40px;
+}

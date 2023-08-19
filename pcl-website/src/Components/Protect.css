@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #dfdada;
+    align-items: center;
+    height: 10vh;
+}
+
+.navbar-left {
+    margin-left: 20px;
+    /* background-color: #6e4343; */
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bruno Ace SC', cursive;
+    font-size: 15px;
+}
+
+.navbar-left input {
+    height: 35px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: #52578a;
+}
+
+input:focus {
+    outline: none;
+    color: #ffffff;
+}
+
+::placeholder {
+    padding: 6px;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.navbar-right {
+    display: flex;
+    font-size: 30px;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    color: #141414;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.secondary-navbar {
+    height: 8vh;
+    background-color: #1a172b;
+    color: #ffffff;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.secondary-navbar h3 {
+    /* background-color: #55516c; */
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body {
+    display: flex;
+}
+
+.body .left-body {
+    height: 82vh;
+    background-color: #141414;
+    color: #dfdada;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.body .left-body ul {
+    height: 90%;
+    /* background-color: rgb(69, 92, 92); */
+}
+
+.body .left-body ul li {
+    list-style-type: none;
+    /* margin: 10px 0; */
+    padding: 20px 7px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.body .left-body ul li h1 {
+    font-size: 28px;
+}
+
+.protect-photo {
+    height: 80vh;
+    padding: 10px 60px;
+    padding-top: 60px;
+}

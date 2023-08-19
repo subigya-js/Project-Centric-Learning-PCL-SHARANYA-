@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+* a {
+    color: #bfbec2;
+}
+
+.main-landing {
+    height: 100vh;
+    width: 100vw;
+    background-color: #130729;
+    color: #bfbec2;
+    display: grid;
+    place-items: center;
+}
+
+.login-container {
+    height: 70vh;
+    width: 70vw;
+    background-color: #221a3b;
+    border-radius: 10px;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.login-container h1 {
+    text-align: center;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.form-container {
+    width: 50%;
+    height: 80%;
+    display: grid;
+    place-items: center;
+    /* background-color: #bfbec2; */
+    margin-bottom: 70px;
+}
+
+.form-container .form {
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 90px;
+}
+
+input {
+    background-color: #5e5a6a;
+    height: 2rem;
+    border: solid #221a3b;
+    border-radius: 5px;
+    width: 150%;
+}
+
+.login-btn {
+    width: 120px;
+    height: 30px;
+    background-color: #0d061a;
+    border: none;
+    border-radius: 10px;
+    color: #e1deea;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px #97d67a;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.login-btn:hover {
+    background-color: #82f946;
+    transition: 0.4s;
+    color: #0d061a;
+    box-shadow: 0px 0px 2px 2px #354235;
+}
+
+label {
+    margin: 5px;
+}
+
+.password {
+    margin-top: 20px;
+}
